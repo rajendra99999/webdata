@@ -1,0 +1,5306 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>ITC Ltd financial results and price chart - Screener</title>
+  <meta name="author" content="Mittal Analytics Private Limited">
+
+  <!-- PWA manifest -->
+  <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#222530" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="/static/manifest.json">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-static.screener.in/favicon/apple-touch-icon.b6e5f24bf7d3.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-static.screener.in/favicon/favicon-32x32.00205914303a.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn-static.screener.in/favicon/favicon-16x16.2b35594b2f33.png">
+  <link rel="mask-icon" href="https://cdn-static.screener.in/favicon/safari-pinned-tab.adbe3ed3c5ad.svg" color="#8ED443">
+  <meta name="msapplication-TileColor" content="#da532c">
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KG8ZGC4');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- FONT -->
+  <link rel="stylesheet" href="https://cdn-static.screener.in/inter/inter.43d4904a3137.css" />
+  <link rel="stylesheet" href="https://cdn-static.screener.in/fontello/css/fontello.f2053f7f00c6.css" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn-static.screener.in/css/normalize.a2444750a947.css" media="all">
+  <link rel="stylesheet" href="https://cdn-static.screener.in/css/skeleton.c7798ad292f2.css" media="all">
+  <link rel="stylesheet" href="https://cdn-static.screener.in/css/custom.d935a88f499d.css" media="all">
+  
+  
+  
+
+<style>
+  tr[data-row-company-id="1552"] {
+    font-weight: 500;
+  }
+
+  tr[data-row-company-id="1552"] a {
+    color: var(--ink-900);
+  }
+</style>
+
+</head>
+
+<body class="light flex-column">
+  <nav class="u-full-width no-print">
+    <div class="top-nav-holder">
+      <div class="container">
+        
+
+
+
+<div class="layer-holder top-navigation">
+  <div class="layer flex flex-space-between" style="align-items: center; height: 50px;">
+    <div class="flex" style="align-items: center">
+      <a href="/" class="logo-holder">
+        <img alt="Screener Logo" class="logo" src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg" />
+      </a>
+
+      <div class="show-from-desktop desktop-links" style="margin-left: 48px">
+        <a href="/">
+          
+          Feed
+          
+        </a>
+        <a href="/explore/">
+          Screens
+        </a>
+        <div class="dropdown-menu">
+          <button class="button-plain" type="button" onclick="Utils.toggleDropdown(event)">
+            Tools
+            <i class="icon-down"></i>
+          </button>
+          <ul class="dropdown-content flex-column tools-menu" style="width: 350px;" id="nav-tools-menu">
+            <li>
+              <a href="/screen/new/" class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/screens.e960a5daedf9.svg" alt="Create a stock screen">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Create a stock screen</div>
+                  <div class="sub font-size-13">Run queries on 10 years of financial data</div>
+                </div>
+              </a>
+            </li>
+            <li class="flex flex-align-center no-hover" style="padding: 4px 0;">
+              <div class="button button-primary premium-indicator flex flex-align-center">
+                <img src="https://cdn-static.screener.in/icons/crown.fb0d2413ee43.svg" alt="Premium icon" style="margin-right: 8px;">
+                <span>Premium features</span>
+              </div>
+              <hr class="flex-grow" style="padding: 0; margin: 0;">
+            </li>
+            <li>
+              <a href="/hs/" class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/export.d623f0029933.svg" alt="Export-import trade data">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Export / import trade data</div>
+                  <div class="sub font-size-13">See price trends of raw materials and finished goods</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/people/" class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/shares.10acc20cb936.svg" alt="Search shareholders by name">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Search shareholders</div>
+                  <div class="sub font-size-13">See companies where a person holds over 1% of the shares</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/announcements/" class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/loudspeaker.88769927f6eb.svg" alt="Latest Announcements">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Latest Announcements</div>
+                  <div class="sub font-size-13">Browse, filter and set alerts for announcements.</div>
+                </div>
+              </a>
+            </li>
+            
+            <li style="padding: 16px;">
+              <a href="/premium/" class="button button-primary text-align-center" style="color: var(--white); padding: 10px 24px">
+                Upgrade to premium
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- search -->
+    <div class="show-on-mobile mobile-links">
+      <button class="button-plain" onclick="MobileMenu.toggleSearch(this)">
+        <i class="icon-search" style="font-size: 1.8rem"></i>
+      </button>
+
+      <div id="mobile-search">
+        <div class="has-addon left-addon dropdown-typeahead">
+  <i class="addon icon-search"></i>
+  <input
+    aria-label="Search for a company"
+    type="search"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder="Search for a company"
+    class="u-full-width"
+    
+    data-company-search="true">
+</div>
+
+      </div>
+    </div>
+
+    <div class="hide-on-mobile flex flex-gap-16" style="justify-content: flex-end; flex: 1 1 400px; margin-left: 48px;">
+      <div class="search" id="desktop-search">
+        <div class="has-addon left-addon dropdown-typeahead">
+  <i class="addon icon-search"></i>
+  <input
+    aria-label="Search for a company"
+    type="search"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder="Search for a company"
+    class="u-full-width"
+    
+    data-company-search="true">
+</div>
+
+      </div>
+
+      
+      <div class="dropdown-menu show-from-desktop">
+        <button class="account" type="button" onclick="Utils.toggleDropdown(event)">
+          <i class="icon-user-line blue-icon"></i>
+          Edupinnacle
+          <i class="icon-down"></i>
+        </button>
+
+        <div class="dropdown-content flex-column" style="right: 0; width: 17.5rem" id="nav-user-menu">
+          <a href="/watchlist/" class="icon-bar_char_horizontal">
+            <i class="icon-watchlist"></i>
+            Watchlist
+          </a>
+          <a href="/dash/">
+            <i class="icon-news"></i>
+            News feed
+          </a>
+          <hr class="no-hover">
+          <a href="/user/account/">
+            <i class="icon-settings"></i>
+            Settings
+          </a>
+          <form action="/logout/" method="post" style="padding: 0">
+            <input type="hidden" name="csrfmiddlewaretoken" value="XVMS1oV4ATbRIpd17TLI6pT5owDXu8TCvxE6vlzYT3rkRNMAPu6TFGtcVckQprfz">
+            <button type="submit" class="button-plain" style="width: 100%; padding: 4px 16px">
+              <i class="icon-off"></i>
+              Logout
+            </button>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="bottom-menu-bar hide-from-desktop flex flex-space-between">
+  
+  <a href="/">
+    <i class="icon-news"></i>
+    <br>
+    Feed
+  </a>
+  
+
+  <a href="/explore/">
+    <i class="icon-screens"></i>
+    <br>
+    Screens
+  </a>
+
+  
+  <div class="super-menu">
+    <button
+      type="button"
+      onclick="Modal.openInModal(event)"
+      data-url="/notebook/1552/"
+      data-title="ITC Ltd"
+      data-is-right-modal="true"
+      aria-label="show company notebook"
+    >
+      <i class="icon-book-open"></i>
+    </button>
+  </div>
+  
+
+  <button class="button-plain" onclick="Modal.showInModal('#nav-tools-menu')">
+    <i class="icon-tools"></i>
+    <br>
+    Tools
+  </button>
+
+  
+  <button class="button-plain" onclick="Modal.showInModal('#nav-user-menu')">
+    <i class="icon-user-line"></i>
+    <br>
+    Account
+  </button>
+  
+</div>
+
+      </div>
+    </div>
+    <div class="sub-nav-holder">
+      <div class="container">
+        
+<div class="sub-nav show-from-tablet-landscape">
+  <a href="#top" class="shrink-text">ITC</a>
+  <a href="#chart">Chart</a>
+  <a href="#analysis">Analysis</a>
+  <a href="#peers">Peers</a>
+  <a href="#quarters">Quarters</a>
+  <a href="#profit-loss">Profit &amp; Loss</a>
+  <a href="#balance-sheet">Balance Sheet</a>
+  <a href="#cash-flow">Cash Flow</a>
+  <a href="#ratios" class="show-from-desktop">Ratios</a>
+  <a href="#shareholding">Investors</a>
+  <a href="#documents">Documents</a>
+  <div class="flex-grow flex">
+    <div class="flex-grow"></div>
+    <button
+      type="button"
+      class="a"
+      onclick="Modal.openInModal(event)"
+      data-url="/notebook/1552/"
+      data-title="ITC Ltd"
+      data-is-right-modal="true"
+    >
+      <i class="icon-book-open"></i>
+      Notebook
+    </button>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </nav>
+
+  
+  <main class="flex-grow container">
+    
+
+
+
+  
+    
+    
+
+    
+  
+
+
+
+
+
+
+    <div class="breadcrumb"></div>
+
+    
+<div
+    data-company-id="1552"
+    data-warehouse-id="6596626"
+    data-user-is-registered="true"
+    data-consolidated="true"
+    id="company-info">
+</div>
+
+<div class="card card-large" id="top">
+  <div class="flex-row flex-space-between flex-gap-8">
+    <div class="flex-row flex-wrap flex-align-center flex-grow" style="flex-basis: 300px;">
+      <h1 class="margin-0">ITC Ltd</h1>
+      <div class="ink-600" style="opacity: 0.5;">
+        <i class="icon-dot"></i>
+      </div>
+      <div class="font-size-18 strong line-height-14">
+        <div class="flex flex-align-center">
+          <span>₹ 339</span>
+          
+          <span class="font-size-12 up margin-left-4">
+            <i class="icon-circle-up"></i>
+            0.09%
+          </span>
+          
+        </div>
+        <div class="ink-600 font-size-11 font-weight-500">
+          
+            25 Jan
+            
+              - close price
+            
+          
+        </div>
+      </div>
+    </div>
+
+    <form method="post" class="flex margin-0" style="align-items: center">
+      <input type="hidden" name="csrfmiddlewaretoken" value="XVMS1oV4ATbRIpd17TLI6pT5owDXu8TCvxE6vlzYT3rkRNMAPu6TFGtcVckQprfz">
+      <input type="hidden" name="next" value="/company/ITC/consolidated/">
+
+      
+      <button
+          class="margin-right-8"
+          formaction="/user/company/export/6596626/"
+          aria-label="Export to Excel">
+        <i class="icon-download"></i>
+        <span class="hide-on-mobile">Export to Excel</span>
+      </button>
+      
+
+      <div class="dropdown-filter" id="add-to-sublists">
+        
+        <button formaction="/api/company/1552/add/" class="button-primary no-margin">
+          <i class="icon-plus"></i> Follow
+        </button>
+        
+        <div id="company-in-sublists" class="hidden"></div>
+      </div>
+    </form>
+  </div>
+
+  
+  <div class="company-links show-from-tablet-landscape" style="font-weight: 500; margin-top: 8px;">
+    <a href="https://www.itcportal.com" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link"></i>
+      <span style="font-size: 1.8rem;">
+        itcportal.com
+      </span>
+    </a>
+
+    
+    <a href="https://www.bseindia.com/stock-share-price/itc-ltd/ITC/500875/" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link-ext"></i>
+      <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+        BSE: 500875
+      </span>
+    </a>
+    
+
+    
+    <a href="https://www.nseindia.com/get-quotes/equity?symbol=ITC" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link-ext"></i>
+      <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+        NSE
+        
+        : ITC
+      </span>
+    </a>
+    
+  </div>
+  
+
+  <div class="company-info">
+    
+    <div class="company-profile">
+      <div class="flex flex-column" style="flex: 1 1;">
+        <div class="title">About</div>
+        <div class="sub show-more-box about" style="flex-basis: 100px">
+          <p>Established in 1910, ITC is the largest cigarette manufacturer and seller in the country. ITC operates in five business segments at present — FMCG Cigarettes, FMCG Others, Hotels, Paperboards, Paper and Packaging, and Agri Business. <sup><a href="https://www.itcportal.com/about-itc/profile/index.aspx" target="_blank" rel="noopener noreferrer">[1]</a></sup></p>
+        </div>
+
+        
+        <div class="title">Key Points</div>
+        <div class="sub commentary always-show-more-box">
+          <p><strong>Geographical Distribution</strong><br>
+For FY22, India accounted for 78% of ITC's revenue while rest was from exports<sup><a href="https://www.bseindia.com/bseplus/AnnualReport/500875/73265500875.pdf#page=334" target="_blank" rel="noopener noreferrer">[1]</a></sup></p>
+          <div class="show-more-button" style="height: 20px"></div>
+        </div>
+
+        <button
+          class="a upper font-weight-500 letter-spacing"
+          style="font-size: 1.4rem"
+          type="button"
+          onclick="Modal.openInModal(event)"
+          data-title="ITC Ltd"
+          data-url="/wiki/company/1552/commentary/v2/"
+          data-is-right-modal="true"
+        >
+          Read More <i class="icon-right"></i>
+        </button>
+        
+      </div>
+
+      <div class="company-links hide-from-tablet-landscape margin-top-20" style="font-weight: 500;">
+        <a href="https://www.itcportal.com" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link"></i>
+          <span style="font-size: 1.6rem;">
+            Website
+          </span>
+        </a>
+
+        
+        <a href="https://www.bseindia.com/stock-share-price/itc-ltd/ITC/500875/" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link-ext"></i>
+          <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+            BSE
+          </span>
+        </a>
+        
+
+        
+        <a href="https://www.nseindia.com/get-quotes/equity?symbol=ITC" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link-ext"></i>
+          <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+            NSE
+            
+          </span>
+        </a>
+        
+      </div>
+    </div>
+    
+
+    <div class="company-ratios">
+      <ul id="top-ratios">
+        
+
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Market Cap
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">421,145</span>
+    
+      Cr.
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Current Price
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">339</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    High / Low
+    
+  </span>
+
+  
+  <span class="nowrap value">₹ <span class="number">362</span> / <span class="number">207</span></span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Stock P/E
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">24.4</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Book Value
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">52.9</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Dividend Yield
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">3.39</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    ROCE
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">33.6</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    ROE
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">24.8</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Face Value
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">1.00</span>
+    
+  </span>
+  
+</li>
+
+
+
+
+
+
+      </ul>
+
+      <div style="margin-top: 32px;">
+        <label for="quick-ratio-search">Add ratio to table</label>
+
+        <div class="flex-row flex-space-between flex-baseline flex-gap-16">
+          <div class="dropdown-typeahead flex-grow" style="max-width: 480px;">
+            <input id="quick-ratio-search" type="text" placeholder="eg. Promoter holding" style="width: 100%;">
+          </div>
+
+          
+          <a href="/user/quick_ratios/?next=/company/ITC/consolidated/" class="smaller">
+            <i class="icon-pencil"></i>
+            <span class="upper font-weight-500 letter-spacing">Edit ratios</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="chart" class="card card-large" style="margin-bottom: 2.5rem">
+  <div id="chart-menu" class="flex flex-space-between flex-wrap" style="margin-bottom: 16px">
+    <div class="options" id="company-chart-days">
+      <button
+        name="days"
+        value="30"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        1m
+      </button>
+      <button
+        name="days"
+        value="180"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        6m
+      </button>
+      <button
+        name="days"
+        value="365"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        1Yr
+      </button>
+      <button
+        name="days"
+        value="1095"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        3Yr
+      </button>
+      <button
+        name="days"
+        value="1825"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        5Yr
+      </button>
+      <button
+        name="days"
+        value="3652"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        10Yr
+      </button>
+      <button
+        name="days"
+        value="10000"
+        onclick="CompanyChart.setActive(event)"
+        type="button">
+        Max
+      </button>
+    </div>
+
+    <div class="flex margin-bottom-24">
+      <div class="options margin-right-8" id="company-chart-metrics" style="margin-bottom: 0">
+        <button
+          onclick="CompanyChart.setActive(event)"
+          name="metrics"
+          value="Price-DMA50-DMA200-Volume"
+          type="button">
+          Price
+        </button>
+        <button
+        onclick="CompanyChart.setActive(event)"
+          name="metrics"
+          value="Price to Earning-Median PE-EPS"
+          type="button">
+          PE Ratio
+        </button>
+        <button
+          class="hidden"
+          id="company-chart-metrics-more-active"
+          onclick="CompanyChart.setActive(event)"
+          name="metrics"
+          value=""
+          type="button">
+        </button>
+        <div class="dropdown-menu" id="metrics-dropdown">
+          <button
+          type="button"
+          class="button-plain"
+          onclick="Utils.toggleDropdown(event)">
+            More <i class="icon-down"></i>
+          </button>
+          <ul
+            class="dropdown-content"
+            style="max-width: 160px; right: 0;"
+          >
+            <li>
+              <button
+                class="a u-full-width"
+                style="padding: 4px 12px;"
+                onclick="CompanyChart.setActive(event)"
+                name="metrics"
+                value="GPM-OPM-NPM-Quarter Sales"
+                type="button">
+                Sales & Margin
+              </button>
+            </li>
+            <li>
+              <button
+                class="a u-full-width"
+                style="padding: 4px 12px;"
+                onclick="CompanyChart.setActive(event)"
+                name="metrics"
+                value="EV Multiple-Median EV Multiple-EBITDA"
+                type="button">
+                EV / EBITDA
+              </button>
+            </li>
+            <li>
+              <button
+                class="a u-full-width"
+                style="padding: 4px 12px;"
+                onclick="CompanyChart.setActive(event)"
+                name="metrics"
+                value="Price to book value-Median PBV-Book value"
+                type="button">
+                Price to Book
+              </button>
+            </li>
+            <li>
+              <button
+                class="a u-full-width"
+                style="padding: 4px 12px;"
+                onclick="CompanyChart.setActive(event)"
+                name="metrics"
+                value="Market Cap to Sales-Median Market Cap to Sales-Sales"
+                type="button">
+                Market Cap / Sales
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <button
+        type="button"
+        class="button-small button-secondary flex flex-align-center"
+        style="border-color: var(--button-border); border-radius: 3px;"
+        data-title="Alerts for ITC Ltd"
+        onclick="Modal.openInModal(event)"
+        data-url="/alerts/stock-6596626/"
+        aria-label="Add alerts for company"
+      >
+        <i class="icon-bell"></i>
+        
+      </button>
+      
+    </div>
+  </div>
+
+  <div class="flex no-select">
+    <div class="hide-on-mobile chart-label">
+      <div id="chart-label-left"></div>
+    </div>
+
+    <div id="chart-area" style="flex-grow: 1;">
+      <div id="chart-info" class="invisible">
+        <div id="chart-crosshair"></div>
+        <div id="chart-tooltip" class="font-size-14">
+          <div id="chart-tooltip-meta" class="ink-700 font-size-12"></div>
+          <div class="font-weight-500 font-size-15" id="chart-tooltip-title"></div>
+          <div id="chart-tooltip-info"></div>
+        </div>
+      </div>
+      <div id="canvas-chart-holder" style="height: 375px;"></div>
+    </div>
+
+    <div class="hide-on-mobile chart-label">
+      <div id="chart-label-right"></div>
+    </div>
+  </div>
+  <div id="chart-legend"></div>
+</section>
+
+
+<section id="analysis" class="card card-large">
+  <div class="flex flex-column-mobile flex-gap-32">
+    <div class="pros" style="flex-basis: 50%;">
+      <p class="title">Pros</p>
+      <ul>
+        
+        <li>Company is almost debt free.</li>
+        
+        <li>Stock is providing a good dividend yield of 3.39%.</li>
+        
+        <li>Company has been maintaining a healthy dividend payout of 91.7%</li>
+        
+      </ul>
+    </div>
+    <div class="cons" style="flex-basis: 50%;">
+      <p class="title">Cons</p>
+      <ul>
+        
+        <li>The company has delivered a poor sales growth of 7.23% over past five years.</li>
+        
+      </ul>
+    </div>
+  </div>
+  <p class="sub font-size-14 margin-top-16 margin-bottom-0">
+    <span style="vertical-align: sub;">*</span>
+    <span class="font-weight-500">The pros and cons are machine generated.</span>
+    <span class="has-tooltip">
+      <i class="icon-info"></i>
+      <span class="tooltip" style="width: 300px; left: -100px;">
+        Pros / cons are based on a checklist to highlight important points. Please exercise caution and do your own analysis.
+      </span>
+    </span>
+  </p>
+</section>
+
+<section id="peers" class="card card-large">
+  <div class="flex flex-space-between" style="align-items: center;">
+    <div>
+      <h2>Peer comparison</h2>
+
+      
+      <p class="sub">
+        Sector:
+        <a href="/company/compare/00000063/">
+          Tobacco Products
+        </a>
+        <span style="margin: 16px"></span>
+        Industry:
+        <a href="/company/compare/00000063/00000024/">
+          Cigarettes
+        </a>
+      </p>
+      
+    </div>
+
+    <div class="flex-reverse">
+      <a href="/user/columns/?next=/company/ITC/consolidated/#peers" class="button button-secondary">
+        <i class="icon-cog"></i>
+        <span class="hide-on-mobile">Edit</span>
+        Columns
+      </a>
+    </div>
+  </div>
+
+  <div id="peers-table-placeholder">Loading peers table ...</div>
+
+  <div class="flex-row flex-baseline">
+    <label for="search-peer-comparison" style="padding-right: 1rem">Detailed Comparison with:</label>
+    <div class="dropdown-typeahead">
+      <input type="text" id="search-peer-comparison" placeholder="eg. Infosys" class="small">
+    </div>
+  </div>
+</section>
+
+
+<section id="quarters" class="card card-large">
+  
+
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>
+      Quarterly Results
+    </h2>
+
+    <p class="sub" style="margin: 0;">
+      
+      Consolidated Figures in Rs. Crores
+      /
+      <a href="/company/ITC/#quarters" class="">
+        View Standalone
+      </a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8" style="justify-content: flex-end; align-items: center;">
+    
+      <button
+          data-segment-button-close
+          onclick="Segment.closeSegments('quarters')"
+          class="hidden">
+        Close Segments
+      </button>
+
+      
+      <button
+          data-segment-button="1"
+          onclick="Segment.showSegment('quarters', '1')"
+          class="button-secondary">
+        Product Segments
+      </button>
+      
+    
+
+    
+  </div>
+</div>
+
+
+<div class="responsive-holder hidden" data-segment-table>
+</div>
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th class="highlight-cell">
+          Sep 2019
+        </th>
+        
+        <th class="">
+          Dec 2019
+        </th>
+        
+        <th class="">
+          Mar 2020
+        </th>
+        
+        <th class="">
+          Jun 2020
+        </th>
+        
+        <th class="highlight-cell">
+          Sep 2020
+        </th>
+        
+        <th class="">
+          Dec 2020
+        </th>
+        
+        <th class="">
+          Mar 2021
+        </th>
+        
+        <th class="">
+          Jun 2021
+        </th>
+        
+        <th class="highlight-cell">
+          Sep 2021
+        </th>
+        
+        <th class="">
+          Dec 2021
+        </th>
+        
+        <th class="">
+          Mar 2022
+        </th>
+        
+        <th class="">
+          Jun 2022
+        </th>
+        
+        <th class="highlight-cell">
+          Sep 2022
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Sales', 'quarters', this)">
+            Sales&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="highlight-cell">
+          12,867
+        </td>
+        
+        <td class="">
+          12,903
+        </td>
+        
+        <td class="">
+          11,782
+        </td>
+        
+        <td class="">
+          10,478
+        </td>
+        
+        <td class="highlight-cell">
+          12,077
+        </td>
+        
+        <td class="">
+          13,080
+        </td>
+        
+        <td class="">
+          14,342
+        </td>
+        
+        <td class="">
+          13,247
+        </td>
+        
+        <td class="highlight-cell">
+          13,757
+        </td>
+        
+        <td class="">
+          17,108
+        </td>
+        
+        <td class="">
+          16,556
+        </td>
+        
+        <td class="">
+          18,489
+        </td>
+        
+        <td class="highlight-cell">
+          17,108
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Expenses', 'quarters', this)">
+            Expenses&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="highlight-cell">
+          8,025
+        </td>
+        
+        <td class="">
+          7,926
+        </td>
+        
+        <td class="">
+          7,279
+        </td>
+        
+        <td class="">
+          7,533
+        </td>
+        
+        <td class="highlight-cell">
+          7,676
+        </td>
+        
+        <td class="">
+          8,295
+        </td>
+        
+        <td class="">
+          9,471
+        </td>
+        
+        <td class="">
+          8,804
+        </td>
+        
+        <td class="highlight-cell">
+          8,740
+        </td>
+        
+        <td class="">
+          11,510
+        </td>
+        
+        <td class="">
+          10,956
+        </td>
+        
+        <td class="">
+          12,412
+        </td>
+        
+        <td class="highlight-cell">
+          10,849
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe strong">
+        <td class="text">
+          
+          Operating Profit
+          
+        </td>
+        
+        <td class="highlight-cell">
+          4,842
+        </td>
+        
+        <td class="">
+          4,977
+        </td>
+        
+        <td class="">
+          4,504
+        </td>
+        
+        <td class="">
+          2,946
+        </td>
+        
+        <td class="highlight-cell">
+          4,401
+        </td>
+        
+        <td class="">
+          4,785
+        </td>
+        
+        <td class="">
+          4,871
+        </td>
+        
+        <td class="">
+          4,444
+        </td>
+        
+        <td class="highlight-cell">
+          5,018
+        </td>
+        
+        <td class="">
+          5,598
+        </td>
+        
+        <td class="">
+          5,599
+        </td>
+        
+        <td class="">
+          6,077
+        </td>
+        
+        <td class="highlight-cell">
+          6,259
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          OPM %
+          
+        </td>
+        
+        <td class="highlight-cell">
+          38%
+        </td>
+        
+        <td class="">
+          39%
+        </td>
+        
+        <td class="">
+          38%
+        </td>
+        
+        <td class="">
+          28%
+        </td>
+        
+        <td class="highlight-cell">
+          36%
+        </td>
+        
+        <td class="">
+          37%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="highlight-cell">
+          36%
+        </td>
+        
+        <td class="">
+          33%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="">
+          33%
+        </td>
+        
+        <td class="highlight-cell">
+          37%
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Other Income', 'quarters', this)">
+            Other Income&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="highlight-cell">
+          630
+        </td>
+        
+        <td class="">
+          521
+        </td>
+        
+        <td class="">
+          668
+        </td>
+        
+        <td class="">
+          925
+        </td>
+        
+        <td class="highlight-cell">
+          582
+        </td>
+        
+        <td class="">
+          546
+        </td>
+        
+        <td class="">
+          579
+        </td>
+        
+        <td class="">
+          447
+        </td>
+        
+        <td class="highlight-cell">
+          469
+        </td>
+        
+        <td class="">
+          422
+        </td>
+        
+        <td class="">
+          499
+        </td>
+        
+        <td class="">
+          321
+        </td>
+        
+        <td class="highlight-cell">
+          455
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Interest
+          
+        </td>
+        
+        <td class="highlight-cell">
+          14
+        </td>
+        
+        <td class="">
+          11
+        </td>
+        
+        <td class="">
+          15
+        </td>
+        
+        <td class="">
+          16
+        </td>
+        
+        <td class="highlight-cell">
+          13
+        </td>
+        
+        <td class="">
+          13
+        </td>
+        
+        <td class="">
+          3
+        </td>
+        
+        <td class="">
+          9
+        </td>
+        
+        <td class="highlight-cell">
+          10
+        </td>
+        
+        <td class="">
+          10
+        </td>
+        
+        <td class="">
+          11
+        </td>
+        
+        <td class="">
+          9
+        </td>
+        
+        <td class="highlight-cell">
+          13
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Depreciation
+          
+        </td>
+        
+        <td class="highlight-cell">
+          416
+        </td>
+        
+        <td class="">
+          437
+        </td>
+        
+        <td class="">
+          413
+        </td>
+        
+        <td class="">
+          419
+        </td>
+        
+        <td class="highlight-cell">
+          405
+        </td>
+        
+        <td class="">
+          413
+        </td>
+        
+        <td class="">
+          409
+        </td>
+        
+        <td class="">
+          414
+        </td>
+        
+        <td class="highlight-cell">
+          422
+        </td>
+        
+        <td class="">
+          430
+        </td>
+        
+        <td class="">
+          467
+        </td>
+        
+        <td class="">
+          438
+        </td>
+        
+        <td class="highlight-cell">
+          462
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Profit before tax
+          
+        </td>
+        
+        <td class="highlight-cell">
+          5,042
+        </td>
+        
+        <td class="">
+          5,049
+        </td>
+        
+        <td class="">
+          4,743
+        </td>
+        
+        <td class="">
+          3,436
+        </td>
+        
+        <td class="highlight-cell">
+          4,565
+        </td>
+        
+        <td class="">
+          4,905
+        </td>
+        
+        <td class="">
+          5,039
+        </td>
+        
+        <td class="">
+          4,467
+        </td>
+        
+        <td class="highlight-cell">
+          5,055
+        </td>
+        
+        <td class="">
+          5,580
+        </td>
+        
+        <td class="">
+          5,620
+        </td>
+        
+        <td class="">
+          5,950
+        </td>
+        
+        <td class="highlight-cell">
+          6,239
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Tax %
+          
+        </td>
+        
+        <td class="highlight-cell">
+          17%
+        </td>
+        
+        <td class="">
+          20%
+        </td>
+        
+        <td class="">
+          17%
+        </td>
+        
+        <td class="">
+          25%
+        </td>
+        
+        <td class="highlight-cell">
+          25%
+        </td>
+        
+        <td class="">
+          27%
+        </td>
+        
+        <td class="">
+          24%
+        </td>
+        
+        <td class="">
+          25%
+        </td>
+        
+        <td class="highlight-cell">
+          26%
+        </td>
+        
+        <td class="">
+          26%
+        </td>
+        
+        <td class="">
+          24%
+        </td>
+        
+        <td class="">
+          25%
+        </td>
+        
+        <td class="highlight-cell">
+          25%
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Net Profit
+          
+        </td>
+        
+        <td class="highlight-cell">
+          4,175
+        </td>
+        
+        <td class="">
+          4,050
+        </td>
+        
+        <td class="">
+          3,927
+        </td>
+        
+        <td class="">
+          2,563
+        </td>
+        
+        <td class="highlight-cell">
+          3,413
+        </td>
+        
+        <td class="">
+          3,587
+        </td>
+        
+        <td class="">
+          3,820
+        </td>
+        
+        <td class="">
+          3,344
+        </td>
+        
+        <td class="highlight-cell">
+          3,766
+        </td>
+        
+        <td class="">
+          4,127
+        </td>
+        
+        <td class="">
+          4,266
+        </td>
+        
+        <td class="">
+          4,472
+        </td>
+        
+        <td class="highlight-cell">
+          4,682
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          EPS in Rs
+          
+        </td>
+        
+        <td class="highlight-cell">
+          3.35
+        </td>
+        
+        <td class="">
+          3.23
+        </td>
+        
+        <td class="">
+          3.14
+        </td>
+        
+        <td class="">
+          2.04
+        </td>
+        
+        <td class="highlight-cell">
+          2.74
+        </td>
+        
+        <td class="">
+          2.87
+        </td>
+        
+        <td class="">
+          3.05
+        </td>
+        
+        <td class="">
+          2.66
+        </td>
+        
+        <td class="highlight-cell">
+          3.01
+        </td>
+        
+        <td class="">
+          3.29
+        </td>
+        
+        <td class="">
+          3.40
+        </td>
+        
+        <td class="">
+          3.56
+        </td>
+        
+        <td class="highlight-cell">
+          3.73
+        </td>
+        
+      </tr>
+      
+
+      
+      <tr class="font-size-14 ink-600">
+        <td class="text ink-600">
+          Raw PDF
+        </td>
+        
+        <td class="hover-link highlight-cell">
+          <a href="/company/source/quarter/1552/09/2019/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/12/2019/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/03/2020/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/06/2020/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link highlight-cell">
+          <a href="/company/source/quarter/1552/09/2020/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/12/2020/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/03/2021/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/06/2021/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link highlight-cell">
+          <a href="/company/source/quarter/1552/09/2021/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/12/2021/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/03/2022/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link ">
+          <a href="/company/source/quarter/1552/06/2022/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+        <td class="hover-link highlight-cell">
+          <a href="/company/source/quarter/1552/09/2022/" target="_blank" rel="noopener noreferrer" aria-label="Raw PDF">
+            <i class="icon-file-pdf ink-600-link"></i>
+          </a>
+        </td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+
+<section id="profit-loss" class="card card-large">
+  
+
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>
+      Profit & Loss
+    </h2>
+
+    <p class="sub" style="margin: 0;">
+      
+      Consolidated Figures in Rs. Crores
+      /
+      <a href="/company/ITC/#profit-loss" class="">
+        View Standalone
+      </a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8" style="justify-content: flex-end; align-items: center;">
+    
+      <button
+          data-segment-button-close
+          onclick="Segment.closeSegments('profit-loss')"
+          class="hidden">
+        Close Segments
+      </button>
+
+      
+      <button
+          data-segment-button="1"
+          onclick="Segment.showSegment('profit-loss', '1')"
+          class="button-secondary">
+        Product Segments
+      </button>
+      
+    
+
+    
+  </div>
+</div>
+
+
+<div class="responsive-holder hidden" data-segment-table>
+</div>
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th class="">
+          Mar 2011
+        </th>
+        
+        <th class="">
+          Mar 2012
+        </th>
+        
+        <th class="">
+          Mar 2013
+        </th>
+        
+        <th class="">
+          Mar 2014
+        </th>
+        
+        <th class="">
+          Mar 2015
+        </th>
+        
+        <th class="">
+          Mar 2016
+        </th>
+        
+        <th class="">
+          Mar 2017
+        </th>
+        
+        <th class="">
+          Mar 2018
+        </th>
+        
+        <th class="">
+          Mar 2019
+        </th>
+        
+        <th class="">
+          Mar 2020
+        </th>
+        
+        <th class="">
+          Mar 2021
+        </th>
+        
+        <th class="">
+          Mar 2022
+        </th>
+        
+        <th class="">
+          TTM
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Sales', 'profit-loss', this)">
+            Sales&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          22,566
+        </td>
+        
+        <td class="">
+          26,516
+        </td>
+        
+        <td class="">
+          31,618
+        </td>
+        
+        <td class="">
+          35,306
+        </td>
+        
+        <td class="">
+          38,817
+        </td>
+        
+        <td class="">
+          39,192
+        </td>
+        
+        <td class="">
+          42,768
+        </td>
+        
+        <td class="">
+          43,449
+        </td>
+        
+        <td class="">
+          48,340
+        </td>
+        
+        <td class="">
+          49,388
+        </td>
+        
+        <td class="">
+          49,257
+        </td>
+        
+        <td class="">
+          60,645
+        </td>
+        
+        <td class="">
+          69,261
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Expenses', 'profit-loss', this)">
+            Expenses&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          14,850
+        </td>
+        
+        <td class="">
+          17,272
+        </td>
+        
+        <td class="">
+          20,398
+        </td>
+        
+        <td class="">
+          22,227
+        </td>
+        
+        <td class="">
+          24,566
+        </td>
+        
+        <td class="">
+          24,661
+        </td>
+        
+        <td class="">
+          27,298
+        </td>
+        
+        <td class="">
+          26,928
+        </td>
+        
+        <td class="">
+          29,802
+        </td>
+        
+        <td class="">
+          30,044
+        </td>
+        
+        <td class="">
+          32,193
+        </td>
+        
+        <td class="">
+          40,021
+        </td>
+        
+        <td class="">
+          45,728
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe strong">
+        <td class="text">
+          
+          Operating Profit
+          
+        </td>
+        
+        <td class="">
+          7,716
+        </td>
+        
+        <td class="">
+          9,244
+        </td>
+        
+        <td class="">
+          11,221
+        </td>
+        
+        <td class="">
+          13,080
+        </td>
+        
+        <td class="">
+          14,252
+        </td>
+        
+        <td class="">
+          14,531
+        </td>
+        
+        <td class="">
+          15,470
+        </td>
+        
+        <td class="">
+          16,521
+        </td>
+        
+        <td class="">
+          18,537
+        </td>
+        
+        <td class="">
+          19,344
+        </td>
+        
+        <td class="">
+          17,065
+        </td>
+        
+        <td class="">
+          20,623
+        </td>
+        
+        <td class="">
+          23,533
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          OPM %
+          
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          37%
+        </td>
+        
+        <td class="">
+          37%
+        </td>
+        
+        <td class="">
+          37%
+        </td>
+        
+        <td class="">
+          36%
+        </td>
+        
+        <td class="">
+          38%
+        </td>
+        
+        <td class="">
+          38%
+        </td>
+        
+        <td class="">
+          39%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Other Income', 'profit-loss', this)">
+            Other Income&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          510
+        </td>
+        
+        <td class="">
+          772
+        </td>
+        
+        <td class="">
+          852
+        </td>
+        
+        <td class="">
+          966
+        </td>
+        
+        <td class="">
+          1,229
+        </td>
+        
+        <td class="">
+          1,483
+        </td>
+        
+        <td class="">
+          1,759
+        </td>
+        
+        <td class="">
+          2,240
+        </td>
+        
+        <td class="">
+          2,080
+        </td>
+        
+        <td class="">
+          2,417
+        </td>
+        
+        <td class="">
+          2,577
+        </td>
+        
+        <td class="">
+          1,910
+        </td>
+        
+        <td class="">
+          1,696
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Interest
+          
+        </td>
+        
+        <td class="">
+          92
+        </td>
+        
+        <td class="">
+          102
+        </td>
+        
+        <td class="">
+          108
+        </td>
+        
+        <td class="">
+          29
+        </td>
+        
+        <td class="">
+          91
+        </td>
+        
+        <td class="">
+          78
+        </td>
+        
+        <td class="">
+          49
+        </td>
+        
+        <td class="">
+          115
+        </td>
+        
+        <td class="">
+          71
+        </td>
+        
+        <td class="">
+          81
+        </td>
+        
+        <td class="">
+          58
+        </td>
+        
+        <td class="">
+          60
+        </td>
+        
+        <td class="">
+          42
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Depreciation
+          
+        </td>
+        
+        <td class="">
+          699
+        </td>
+        
+        <td class="">
+          745
+        </td>
+        
+        <td class="">
+          859
+        </td>
+        
+        <td class="">
+          965
+        </td>
+        
+        <td class="">
+          1,028
+        </td>
+        
+        <td class="">
+          1,077
+        </td>
+        
+        <td class="">
+          1,153
+        </td>
+        
+        <td class="">
+          1,236
+        </td>
+        
+        <td class="">
+          1,397
+        </td>
+        
+        <td class="">
+          1,645
+        </td>
+        
+        <td class="">
+          1,646
+        </td>
+        
+        <td class="">
+          1,732
+        </td>
+        
+        <td class="">
+          1,797
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Profit before tax
+          
+        </td>
+        
+        <td class="">
+          7,435
+        </td>
+        
+        <td class="">
+          9,168
+        </td>
+        
+        <td class="">
+          11,106
+        </td>
+        
+        <td class="">
+          13,052
+        </td>
+        
+        <td class="">
+          14,362
+        </td>
+        
+        <td class="">
+          14,859
+        </td>
+        
+        <td class="">
+          16,026
+        </td>
+        
+        <td class="">
+          17,409
+        </td>
+        
+        <td class="">
+          19,150
+        </td>
+        
+        <td class="">
+          20,035
+        </td>
+        
+        <td class="">
+          17,938
+        </td>
+        
+        <td class="">
+          20,740
+        </td>
+        
+        <td class="">
+          23,390
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Tax %
+          
+        </td>
+        
+        <td class="">
+          32%
+        </td>
+        
+        <td class="">
+          31%
+        </td>
+        
+        <td class="">
+          31%
+        </td>
+        
+        <td class="">
+          31%
+        </td>
+        
+        <td class="">
+          32%
+        </td>
+        
+        <td class="">
+          36%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+        <td class="">
+          33%
+        </td>
+        
+        <td class="">
+          22%
+        </td>
+        
+        <td class="">
+          25%
+        </td>
+        
+        <td class="">
+          25%
+        </td>
+        
+        <td class="">
+          
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Net Profit
+          
+        </td>
+        
+        <td class="">
+          5,079
+        </td>
+        
+        <td class="">
+          6,334
+        </td>
+        
+        <td class="">
+          7,704
+        </td>
+        
+        <td class="">
+          9,001
+        </td>
+        
+        <td class="">
+          9,779
+        </td>
+        
+        <td class="">
+          9,501
+        </td>
+        
+        <td class="">
+          10,477
+        </td>
+        
+        <td class="">
+          11,493
+        </td>
+        
+        <td class="">
+          12,836
+        </td>
+        
+        <td class="">
+          15,593
+        </td>
+        
+        <td class="">
+          13,383
+        </td>
+        
+        <td class="">
+          15,503
+        </td>
+        
+        <td class="">
+          17,546
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          EPS in Rs
+          
+        </td>
+        
+        <td class="">
+          4.32
+        </td>
+        
+        <td class="">
+          5.34
+        </td>
+        
+        <td class="">
+          6.42
+        </td>
+        
+        <td class="">
+          7.45
+        </td>
+        
+        <td class="">
+          8.04
+        </td>
+        
+        <td class="">
+          7.74
+        </td>
+        
+        <td class="">
+          8.47
+        </td>
+        
+        <td class="">
+          9.24
+        </td>
+        
+        <td class="">
+          10.27
+        </td>
+        
+        <td class="">
+          12.45
+        </td>
+        
+        <td class="">
+          10.69
+        </td>
+        
+        <td class="">
+          12.37
+        </td>
+        
+        <td class="">
+          13.98
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Dividend Payout %
+          
+        </td>
+        
+        <td class="">
+          69%
+        </td>
+        
+        <td class="">
+          56%
+        </td>
+        
+        <td class="">
+          55%
+        </td>
+        
+        <td class="">
+          54%
+        </td>
+        
+        <td class="">
+          52%
+        </td>
+        
+        <td class="">
+          73%
+        </td>
+        
+        <td class="">
+          56%
+        </td>
+        
+        <td class="">
+          56%
+        </td>
+        
+        <td class="">
+          56%
+        </td>
+        
+        <td class="">
+          82%
+        </td>
+        
+        <td class="">
+          101%
+        </td>
+        
+        <td class="">
+          93%
+        </td>
+        
+        <td class="">
+          
+        </td>
+        
+      </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2%;">
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Compounded Sales Growth</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>9%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>7%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>8%</td>
+      </tr>
+      <tr>
+        <td>TTM:</td>
+        <td>27%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Compounded Profit Growth</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>8%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>6%</td>
+      </tr>
+      <tr>
+        <td>TTM:</td>
+        <td>21%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Stock Price CAGR</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>4%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>13%</td>
+      </tr>
+      <tr>
+        <td>1 Year:</td>
+        <td>58%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Return on Equity</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>25%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>23%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>24%</td>
+      </tr>
+      <tr>
+        <td>Last Year:</td>
+        <td>25%</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<section id="balance-sheet" class="card card-large">
+  
+
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>
+      Balance Sheet
+    </h2>
+
+    <p class="sub" style="margin: 0;">
+      
+      Consolidated Figures in Rs. Crores
+      /
+      <a href="/company/ITC/#balance-sheet" class="">
+        View Standalone
+      </a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8" style="justify-content: flex-end; align-items: center;">
+    
+
+    
+    <button
+      type="button"
+      class="button-secondary button-small"
+      onclick="Modal.openInModal(event)"
+      data-title="Corporate actions"
+      data-url="/company/actions/1552/"
+    >
+      Corporate actions
+    </button>
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th class="">
+          Mar 2011
+        </th>
+        
+        <th class="">
+          Mar 2012
+        </th>
+        
+        <th class="">
+          Mar 2013
+        </th>
+        
+        <th class="">
+          Mar 2014
+        </th>
+        
+        <th class="">
+          Mar 2015
+        </th>
+        
+        <th class="">
+          Mar 2016
+        </th>
+        
+        <th class="">
+          Mar 2017
+        </th>
+        
+        <th class="">
+          Mar 2018
+        </th>
+        
+        <th class="">
+          Mar 2019
+        </th>
+        
+        <th class="">
+          Mar 2020
+        </th>
+        
+        <th class="">
+          Mar 2021
+        </th>
+        
+        <th class="">
+          Mar 2022
+        </th>
+        
+        <th class="">
+          Sep 2022
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Share Capital', 'balance-sheet', this)">
+            Share Capital&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          774
+        </td>
+        
+        <td class="">
+          782
+        </td>
+        
+        <td class="">
+          790
+        </td>
+        
+        <td class="">
+          795
+        </td>
+        
+        <td class="">
+          802
+        </td>
+        
+        <td class="">
+          805
+        </td>
+        
+        <td class="">
+          1,215
+        </td>
+        
+        <td class="">
+          1,220
+        </td>
+        
+        <td class="">
+          1,226
+        </td>
+        
+        <td class="">
+          1,229
+        </td>
+        
+        <td class="">
+          1,231
+        </td>
+        
+        <td class="">
+          1,232
+        </td>
+        
+        <td class="">
+          1,240
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Reserves
+          
+        </td>
+        
+        <td class="">
+          15,716
+        </td>
+        
+        <td class="">
+          18,677
+        </td>
+        
+        <td class="">
+          22,368
+        </td>
+        
+        <td class="">
+          26,442
+        </td>
+        
+        <td class="">
+          30,934
+        </td>
+        
+        <td class="">
+          41,875
+        </td>
+        
+        <td class="">
+          45,198
+        </td>
+        
+        <td class="">
+          51,290
+        </td>
+        
+        <td class="">
+          57,915
+        </td>
+        
+        <td class="">
+          64,044
+        </td>
+        
+        <td class="">
+          59,116
+        </td>
+        
+        <td class="">
+          61,223
+        </td>
+        
+        <td class="">
+          64,384
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Borrowings', 'balance-sheet', this)">
+            Borrowings&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          125
+        </td>
+        
+        <td class="">
+          118
+        </td>
+        
+        <td class="">
+          102
+        </td>
+        
+        <td class="">
+          242
+        </td>
+        
+        <td class="">
+          269
+        </td>
+        
+        <td class="">
+          84
+        </td>
+        
+        <td class="">
+          46
+        </td>
+        
+        <td class="">
+          36
+        </td>
+        
+        <td class="">
+          13
+        </td>
+        
+        <td class="">
+          277
+        </td>
+        
+        <td class="">
+          271
+        </td>
+        
+        <td class="">
+          249
+        </td>
+        
+        <td class="">
+          253
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Other Liabilities', 'balance-sheet', this)">
+            Other Liabilities&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          9,777
+        </td>
+        
+        <td class="">
+          10,509
+        </td>
+        
+        <td class="">
+          12,069
+        </td>
+        
+        <td class="">
+          13,369
+        </td>
+        
+        <td class="">
+          13,948
+        </td>
+        
+        <td class="">
+          8,888
+        </td>
+        
+        <td class="">
+          9,440
+        </td>
+        
+        <td class="">
+          11,695
+        </td>
+        
+        <td class="">
+          12,585
+        </td>
+        
+        <td class="">
+          11,760
+        </td>
+        
+        <td class="">
+          13,143
+        </td>
+        
+        <td class="">
+          14,491
+        </td>
+        
+        <td class="">
+          16,281
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe strong">
+        <td class="text">
+          
+          Total Liabilities
+          
+        </td>
+        
+        <td class="">
+          26,391
+        </td>
+        
+        <td class="">
+          30,085
+        </td>
+        
+        <td class="">
+          35,329
+        </td>
+        
+        <td class="">
+          40,848
+        </td>
+        
+        <td class="">
+          45,952
+        </td>
+        
+        <td class="">
+          51,651
+        </td>
+        
+        <td class="">
+          55,898
+        </td>
+        
+        <td class="">
+          64,241
+        </td>
+        
+        <td class="">
+          71,739
+        </td>
+        
+        <td class="">
+          77,311
+        </td>
+        
+        <td class="">
+          73,761
+        </td>
+        
+        <td class="">
+          77,196
+        </td>
+        
+        <td class="">
+          82,157
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Fixed Assets', 'balance-sheet', this)">
+            Fixed Assets&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          9,172
+        </td>
+        
+        <td class="">
+          10,007
+        </td>
+        
+        <td class="">
+          12,140
+        </td>
+        
+        <td class="">
+          12,921
+        </td>
+        
+        <td class="">
+          15,303
+        </td>
+        
+        <td class="">
+          15,107
+        </td>
+        
+        <td class="">
+          15,893
+        </td>
+        
+        <td class="">
+          16,524
+        </td>
+        
+        <td class="">
+          19,374
+        </td>
+        
+        <td class="">
+          21,713
+        </td>
+        
+        <td class="">
+          23,298
+        </td>
+        
+        <td class="">
+          24,232
+        </td>
+        
+        <td class="">
+          25,046
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          CWIP
+          
+        </td>
+        
+        <td class="">
+          1,368
+        </td>
+        
+        <td class="">
+          2,396
+        </td>
+        
+        <td class="">
+          2,062
+        </td>
+        
+        <td class="">
+          3,117
+        </td>
+        
+        <td class="">
+          2,700
+        </td>
+        
+        <td class="">
+          2,560
+        </td>
+        
+        <td class="">
+          3,730
+        </td>
+        
+        <td class="">
+          5,508
+        </td>
+        
+        <td class="">
+          4,136
+        </td>
+        
+        <td class="">
+          3,256
+        </td>
+        
+        <td class="">
+          4,011
+        </td>
+        
+        <td class="">
+          3,226
+        </td>
+        
+        <td class="">
+          3,319
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Investments
+          
+        </td>
+        
+        <td class="">
+          4,868
+        </td>
+        
+        <td class="">
+          5,207
+        </td>
+        
+        <td class="">
+          5,981
+        </td>
+        
+        <td class="">
+          7,284
+        </td>
+        
+        <td class="">
+          6,943
+        </td>
+        
+        <td class="">
+          11,748
+        </td>
+        
+        <td class="">
+          17,581
+        </td>
+        
+        <td class="">
+          22,053
+        </td>
+        
+        <td class="">
+          25,043
+        </td>
+        
+        <td class="">
+          28,663
+        </td>
+        
+        <td class="">
+          24,871
+        </td>
+        
+        <td class="">
+          24,841
+        </td>
+        
+        <td class="">
+          24,834
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Other Assets', 'balance-sheet', this)">
+            Other Assets&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          10,984
+        </td>
+        
+        <td class="">
+          12,475
+        </td>
+        
+        <td class="">
+          15,146
+        </td>
+        
+        <td class="">
+          17,526
+        </td>
+        
+        <td class="">
+          21,006
+        </td>
+        
+        <td class="">
+          22,237
+        </td>
+        
+        <td class="">
+          18,694
+        </td>
+        
+        <td class="">
+          20,156
+        </td>
+        
+        <td class="">
+          23,185
+        </td>
+        
+        <td class="">
+          23,678
+        </td>
+        
+        <td class="">
+          21,580
+        </td>
+        
+        <td class="">
+          24,898
+        </td>
+        
+        <td class="">
+          28,958
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Total Assets
+          
+        </td>
+        
+        <td class="">
+          26,391
+        </td>
+        
+        <td class="">
+          30,085
+        </td>
+        
+        <td class="">
+          35,329
+        </td>
+        
+        <td class="">
+          40,848
+        </td>
+        
+        <td class="">
+          45,952
+        </td>
+        
+        <td class="">
+          51,651
+        </td>
+        
+        <td class="">
+          55,898
+        </td>
+        
+        <td class="">
+          64,241
+        </td>
+        
+        <td class="">
+          71,739
+        </td>
+        
+        <td class="">
+          77,311
+        </td>
+        
+        <td class="">
+          73,761
+        </td>
+        
+        <td class="">
+          77,196
+        </td>
+        
+        <td class="">
+          82,157
+        </td>
+        
+      </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="cash-flow" class="card card-large">
+  
+
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>
+      Cash Flows
+    </h2>
+
+    <p class="sub" style="margin: 0;">
+      
+      Consolidated Figures in Rs. Crores
+      /
+      <a href="/company/ITC/#cash-flow" class="">
+        View Standalone
+      </a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8" style="justify-content: flex-end; align-items: center;">
+    
+
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th class="">
+          Mar 2011
+        </th>
+        
+        <th class="">
+          Mar 2012
+        </th>
+        
+        <th class="">
+          Mar 2013
+        </th>
+        
+        <th class="">
+          Mar 2014
+        </th>
+        
+        <th class="">
+          Mar 2015
+        </th>
+        
+        <th class="">
+          Mar 2016
+        </th>
+        
+        <th class="">
+          Mar 2017
+        </th>
+        
+        <th class="">
+          Mar 2018
+        </th>
+        
+        <th class="">
+          Mar 2019
+        </th>
+        
+        <th class="">
+          Mar 2020
+        </th>
+        
+        <th class="">
+          Mar 2021
+        </th>
+        
+        <th class="">
+          Mar 2022
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Cash from Operating Activity', 'cash-flow', this)">
+            Cash from Operating Activity&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          5,509
+        </td>
+        
+        <td class="">
+          6,256
+        </td>
+        
+        <td class="">
+          7,102
+        </td>
+        
+        <td class="">
+          7,344
+        </td>
+        
+        <td class="">
+          9,843
+        </td>
+        
+        <td class="">
+          9,799
+        </td>
+        
+        <td class="">
+          10,627
+        </td>
+        
+        <td class="">
+          13,169
+        </td>
+        
+        <td class="">
+          12,583
+        </td>
+        
+        <td class="">
+          14,690
+        </td>
+        
+        <td class="">
+          12,527
+        </td>
+        
+        <td class="">
+          15,776
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Cash from Investing Activity', 'cash-flow', this)">
+            Cash from Investing Activity&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          -871
+        </td>
+        
+        <td class="">
+          -2,694
+        </td>
+        
+        <td class="">
+          -3,881
+        </td>
+        
+        <td class="">
+          -3,254
+        </td>
+        
+        <td class="">
+          -5,275
+        </td>
+        
+        <td class="">
+          -3,921
+        </td>
+        
+        <td class="">
+          -3,251
+        </td>
+        
+        <td class="">
+          -7,114
+        </td>
+        
+        <td class="">
+          -5,546
+        </td>
+        
+        <td class="">
+          -6,174
+        </td>
+        
+        <td class="">
+          5,740
+        </td>
+        
+        <td class="">
+          -2,238
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          <button
+              class="button-plain"
+              onclick="Company.showSchedule('Cash from Financing Activity', 'cash-flow', this)">
+            Cash from Financing Activity&nbsp;<span class="blue-icon">+</span>
+          </button>
+          
+        </td>
+        
+        <td class="">
+          -3,580
+        </td>
+        
+        <td class="">
+          -3,305
+        </td>
+        
+        <td class="">
+          -3,310
+        </td>
+        
+        <td class="">
+          -4,122
+        </td>
+        
+        <td class="">
+          -4,661
+        </td>
+        
+        <td class="">
+          -5,613
+        </td>
+        
+        <td class="">
+          -7,301
+        </td>
+        
+        <td class="">
+          -6,221
+        </td>
+        
+        <td class="">
+          -6,869
+        </td>
+        
+        <td class="">
+          -8,181
+        </td>
+        
+        <td class="">
+          -18,634
+        </td>
+        
+        <td class="">
+          -13,580
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Net Cash Flow
+          
+        </td>
+        
+        <td class="">
+          1,058
+        </td>
+        
+        <td class="">
+          257
+        </td>
+        
+        <td class="">
+          -90
+        </td>
+        
+        <td class="">
+          -32
+        </td>
+        
+        <td class="">
+          -93
+        </td>
+        
+        <td class="">
+          266
+        </td>
+        
+        <td class="">
+          75
+        </td>
+        
+        <td class="">
+          -166
+        </td>
+        
+        <td class="">
+          169
+        </td>
+        
+        <td class="">
+          334
+        </td>
+        
+        <td class="">
+          -367
+        </td>
+        
+        <td class="">
+          -43
+        </td>
+        
+      </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="ratios" class="card card-large">
+  
+
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>
+      Ratios
+    </h2>
+
+    <p class="sub" style="margin: 0;">
+      
+      Consolidated Figures in Rs. Crores
+      /
+      <a href="/company/ITC/#ratios" class="">
+        View Standalone
+      </a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8" style="justify-content: flex-end; align-items: center;">
+    
+
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th class="">
+          Mar 2011
+        </th>
+        
+        <th class="">
+          Mar 2012
+        </th>
+        
+        <th class="">
+          Mar 2013
+        </th>
+        
+        <th class="">
+          Mar 2014
+        </th>
+        
+        <th class="">
+          Mar 2015
+        </th>
+        
+        <th class="">
+          Mar 2016
+        </th>
+        
+        <th class="">
+          Mar 2017
+        </th>
+        
+        <th class="">
+          Mar 2018
+        </th>
+        
+        <th class="">
+          Mar 2019
+        </th>
+        
+        <th class="">
+          Mar 2020
+        </th>
+        
+        <th class="">
+          Mar 2021
+        </th>
+        
+        <th class="">
+          Mar 2022
+        </th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Debtor Days
+          
+        </td>
+        
+        <td class="">
+          18
+        </td>
+        
+        <td class="">
+          17
+        </td>
+        
+        <td class="">
+          16
+        </td>
+        
+        <td class="">
+          25
+        </td>
+        
+        <td class="">
+          19
+        </td>
+        
+        <td class="">
+          18
+        </td>
+        
+        <td class="">
+          21
+        </td>
+        
+        <td class="">
+          23
+        </td>
+        
+        <td class="">
+          30
+        </td>
+        
+        <td class="">
+          19
+        </td>
+        
+        <td class="">
+          19
+        </td>
+        
+        <td class="">
+          15
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          Inventory Days
+          
+        </td>
+        
+        <td class="">
+          256
+        </td>
+        
+        <td class="">
+          243
+        </td>
+        
+        <td class="">
+          227
+        </td>
+        
+        <td class="">
+          228
+        </td>
+        
+        <td class="">
+          212
+        </td>
+        
+        <td class="">
+          244
+        </td>
+        
+        <td class="">
+          185
+        </td>
+        
+        <td class="">
+          173
+        </td>
+        
+        <td class="">
+          165
+        </td>
+        
+        <td class="">
+          187
+        </td>
+        
+        <td class="">
+          189
+        </td>
+        
+        <td class="">
+          150
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Days Payable
+          
+        </td>
+        
+        <td class="">
+          67
+        </td>
+        
+        <td class="">
+          58
+        </td>
+        
+        <td class="">
+          53
+        </td>
+        
+        <td class="">
+          58
+        </td>
+        
+        <td class="">
+          50
+        </td>
+        
+        <td class="">
+          63
+        </td>
+        
+        <td class="">
+          60
+        </td>
+        
+        <td class="">
+          80
+        </td>
+        
+        <td class="">
+          74
+        </td>
+        
+        <td class="">
+          76
+        </td>
+        
+        <td class="">
+          78
+        </td>
+        
+        <td class="">
+          61
+        </td>
+        
+      </tr>
+      
+      <tr class=" strong">
+        <td class="text">
+          
+          Cash Conversion Cycle
+          
+        </td>
+        
+        <td class="">
+          207
+        </td>
+        
+        <td class="">
+          202
+        </td>
+        
+        <td class="">
+          189
+        </td>
+        
+        <td class="">
+          195
+        </td>
+        
+        <td class="">
+          181
+        </td>
+        
+        <td class="">
+          199
+        </td>
+        
+        <td class="">
+          145
+        </td>
+        
+        <td class="">
+          115
+        </td>
+        
+        <td class="">
+          122
+        </td>
+        
+        <td class="">
+          129
+        </td>
+        
+        <td class="">
+          129
+        </td>
+        
+        <td class="">
+          104
+        </td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          
+          Working Capital Days
+          
+        </td>
+        
+        <td class="">
+          -22
+        </td>
+        
+        <td class="">
+          -15
+        </td>
+        
+        <td class="">
+          -5
+        </td>
+        
+        <td class="">
+          9
+        </td>
+        
+        <td class="">
+          -4
+        </td>
+        
+        <td class="">
+          52
+        </td>
+        
+        <td class="">
+          45
+        </td>
+        
+        <td class="">
+          31
+        </td>
+        
+        <td class="">
+          32
+        </td>
+        
+        <td class="">
+          35
+        </td>
+        
+        <td class="">
+          36
+        </td>
+        
+        <td class="">
+          31
+        </td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          
+          ROCE %
+          
+        </td>
+        
+        <td class="">
+          48%
+        </td>
+        
+        <td class="">
+          50%
+        </td>
+        
+        <td class="">
+          51%
+        </td>
+        
+        <td class="">
+          50%
+        </td>
+        
+        <td class="">
+          48%
+        </td>
+        
+        <td class="">
+          40%
+        </td>
+        
+        <td class="">
+          36%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          35%
+        </td>
+        
+        <td class="">
+          33%
+        </td>
+        
+        <td class="">
+          29%
+        </td>
+        
+        <td class="">
+          34%
+        </td>
+        
+      </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="shareholding" class="card card-large">
+  <div class="flex flex-space-between flex-wrap margin-bottom-8 flex-align-center">
+  <div>
+    <h2 class="margin-0">Shareholding Pattern</h2>
+    <p class="sub">Numbers in percentages</p>
+  </div>
+
+  <div class="text-align-center">
+  
+    <button
+      type="button"
+      class="button-secondary button-small"
+      onclick="Modal.openInModal(event)"
+      data-title="ITC trades"
+      data-url="/trades/company-1552/"
+    >
+      Deals / Trades
+    </button>
+    
+      <div class="ink-700 font-size-12">
+        2 recently
+      </div>
+    
+  
+  </div>
+</div>
+
+
+<div class="responsive-holder fill-card-width">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+        <th>Mar 2020</th>
+        
+        <th>Jun 2020</th>
+        
+        <th>Sep 2020</th>
+        
+        <th>Dec 2020</th>
+        
+        <th>Mar 2021</th>
+        
+        <th>Jun 2021</th>
+        
+        <th>Sep 2021</th>
+        
+        <th>Dec 2021</th>
+        
+        <th>Mar 2022</th>
+        
+        <th>Jun 2022</th>
+        
+        <th>Sep 2022</th>
+        
+        <th>Dec 2022</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr class="stripe">
+        <td class="text">
+          <button
+            class="button-plain"
+            onclick="Company.showShareholders('foreign_institutions', this)"
+          >
+            FIIs&nbsp;<span class="blue-icon">+</span>
+          </button>
+        </td>
+        
+        <td>14.65</td>
+        
+        <td>14.60</td>
+        
+        <td>12.96</td>
+        
+        <td>13.31</td>
+        
+        <td>12.79</td>
+        
+        <td>11.74</td>
+        
+        <td>10.81</td>
+        
+        <td>9.99</td>
+        
+        <td>11.99</td>
+        
+        <td>12.68</td>
+        
+        <td>42.68</td>
+        
+        <td>42.99</td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          <button
+            class="button-plain"
+            onclick="Company.showShareholders('domestic_institutions', this)"
+          >
+            DIIs&nbsp;<span class="blue-icon">+</span>
+          </button>
+        </td>
+        
+        <td>42.46</td>
+        
+        <td>42.09</td>
+        
+        <td>43.54</td>
+        
+        <td>42.94</td>
+        
+        <td>42.50</td>
+        
+        <td>42.40</td>
+        
+        <td>43.72</td>
+        
+        <td>43.79</td>
+        
+        <td>42.77</td>
+        
+        <td>42.82</td>
+        
+        <td>42.38</td>
+        
+        <td>42.19</td>
+        
+      </tr>
+      
+      <tr class="stripe">
+        <td class="text">
+          <button
+            class="button-plain"
+            onclick="Company.showShareholders('government', this)"
+          >
+            Government&nbsp;<span class="blue-icon">+</span>
+          </button>
+        </td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.00</td>
+        
+        <td>0.04</td>
+        
+        <td>0.04</td>
+        
+      </tr>
+      
+      <tr class="">
+        <td class="text">
+          <button
+            class="button-plain"
+            onclick="Company.showShareholders('public', this)"
+          >
+            Public&nbsp;<span class="blue-icon">+</span>
+          </button>
+        </td>
+        
+        <td>42.89</td>
+        
+        <td>43.31</td>
+        
+        <td>43.50</td>
+        
+        <td>43.75</td>
+        
+        <td>44.71</td>
+        
+        <td>45.86</td>
+        
+        <td>45.47</td>
+        
+        <td>46.22</td>
+        
+        <td>45.24</td>
+        
+        <td>44.50</td>
+        
+        <td>14.87</td>
+        
+        <td>14.78</td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+
+<p class="sub small">
+  * The classifications might have changed from Sep'2022 onwards.
+  <span class="has-tooltip">
+    <i class="icon-info"></i>
+    <span class="tooltip" style="width: 300px">
+      The new XBRL format added more details from Sep'22 onwards.
+      <br>
+      <br>
+      Classifications such as banks and foreign portfolio investors were not available earlier. The sudden changes in FII or DII can be because of these changes.
+      <br>
+      <br>
+      Click on the line-items to see the names of individual entities.
+    </span>
+  </span>
+</p>
+
+
+
+</section>
+
+<section id="documents" class="card card-large">
+  <div class="flex flex-space-between margin-bottom-16">
+    <h2 class="margin-0">Documents</h2>
+  </div>
+
+  <div class="flex-row flex-gap-small">
+    
+    <div class="documents flex-column" style="flex: 2 1 230px;">
+      <h3 class="margin-bottom-8">Announcements</h3>
+
+      <div class="show-more-box" style="flex-basis: 300px">
+        <div id="company-announcements-tab">
+          <div class="flex">
+  <div class="options small" style="margin-bottom: 0">
+    <button
+      type="button"
+      class="active"
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/recent/1552/')"
+      data-swap="#company-announcements-tab"
+    >
+      Recent
+    </button>
+    <button
+      type="button"
+      
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/important/1552/')"
+      data-swap="#company-announcements-tab"
+    >
+      Important
+    </button>
+    <button
+      type="button"
+      
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/search/1552/')"
+      data-swap="#company-announcements-tab"
+    >
+      Search
+    </button>
+    <a class="button" href="https://www.bseindia.com/stock-share-price/itc-ltd/itc/500875/corp-announcements/" target="_blank" rel="noopener noreferrer">
+      All
+      <i class="icon-link-ext smaller"></i>
+    </a>
+  </div>
+</div>
+
+
+  
+<ul class="list-links">
+
+  <li>
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/3c20f86d-429c-45c8-a7c4-0bea26e20a85.pdf" target="_blank" rel="noopener noreferrer">
+      Announcement under Regulation 30 (LODR)-Resignation of Director
+
+      
+      <div class="ink-600 smaller">
+        20 Jan - Mr. Navneet Doda has stepped down from the Board of the Company with effect from today i.e., 20th January, 2023. Mr. Doda represented the General …
+      </div>
+      
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/14cac41b-b1a7-4f15-9364-29afed743a8f.pdf" target="_blank" rel="noopener noreferrer">
+      Board Meeting Intimation for Board Meeting - 3Rd February, 2023
+
+      
+      <span class="ink-600 smaller">
+        20 Jan
+      </span>
+      
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/50d1ca44-21f2-492b-86e6-660512ff61d0.pdf" target="_blank" rel="noopener noreferrer">
+      Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
+
+      
+      <span class="ink-600 smaller">
+        20 Jan
+      </span>
+      
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/a8ebae79-134c-4ad2-90dd-b0b9b41e20ef.pdf" target="_blank" rel="noopener noreferrer">
+      Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
+
+      
+      <span class="ink-600 smaller">
+        20 Jan
+      </span>
+      
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/59eee72e-8caf-4b20-9250-1265d10c0dbc.pdf" target="_blank" rel="noopener noreferrer">
+      Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS
+
+      
+      <div class="ink-600 smaller">
+        19 Jan - The Company on 19th January, 2023 issued and allotted 17,05,960 Ordinary Shares of Re. 1/- each, upon exercise of 1,70,596 Options by Optionees under the …
+      </div>
+      
+    </a>
+  </li>
+
+</ul>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="documents annual-reports flex-column" style="flex: 1 1 200px; max-width: 275px;">
+      <h3>Annual reports</h3>
+      <div class="show-more-box">
+        
+<ul class="list-links">
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/73265500875.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2022
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/68921500875.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2021
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750320.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2020
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750319.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2019
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750318.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2018
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750317.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2017
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750316.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2016
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750315.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2015
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750314.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2014
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750313.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2013
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://archives.nseindia.com/annual_reports/AR_78_ITC_2012_2013_14062013150845.zip" target="_blank" rel="noopener noreferrer">
+      Financial Year 2013
+      <div class="ink-600 smaller">
+        from nse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750312.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2012
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://archives.nseindia.com/annual_reports/AR_ITC_2011_2012_19062012102526.zip" target="_blank" rel="noopener noreferrer">
+      Financial Year 2012
+      <div class="ink-600 smaller">
+        from nse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750311.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2011
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://archives.nseindia.com/annual_reports/AR_ITC_2010_2011_21072011082535.zip" target="_blank" rel="noopener noreferrer">
+      Financial Year 2011
+      <div class="ink-600 smaller">
+        from nse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750310.pdf" target="_blank" rel="noopener noreferrer">
+      Financial Year 2010
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+</ul>
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="documents credit-ratings flex-column" style="flex: 1 1 200px; max-width: 275px;">
+      <h3>Credit ratings</h3>
+      <div class="show-more-box">
+        
+<ul class="list-links">
+
+  <li>
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_May 30, 2022_RR_285350.html" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        30 May 2022 from crisil
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=108456" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        30 Nov 2021 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_March 22, 2021_RR_266798.html" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        22 Mar 2021 from crisil
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=99619" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        27 Nov 2020 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITC_Limited_November_04_2020_RR.html" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        4 Nov 2020 from crisil
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITC_Limited_June_30_2020_RR.html" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        30 Jun 2020 from crisil
+      </div>
+    </a>
+  </li>
+
+</ul>
+
+
+      </div>
+    </div>
+    
+
+    
+    <div class="documents concalls flex-column" style="flex: 1 1 200px;">
+      <h3>Concalls</h3>
+      <div class="show-more-box">
+        <ul class="list-links">
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Dec 2022
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/b85d79fe-a90f-4658-a40f-694c2129b575.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Oct 2022
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/130deaf2-2b61-45d8-a8ef-f32fc5101725.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Aug 2022
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/e5729d2a-7bba-4fa9-aee5-e54e02af782a.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      May 2022
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/9acadc1b-6a34-4f24-9a60-beae911c443f.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Feb 2022
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/ce674fb0-b609-40ba-ba6d-a83a52ecb99f.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Dec 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/cadd3c07-476f-48d0-a4d2-4191b0526c6f.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Oct 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e129185-3494-413a-bf72-82dafec0466b.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Aug 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/86bb35bf-feea-4dde-81b0-3d76fd7b8ac1.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Jul 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/28198f4c-275e-41f7-86ae-7762089286b1.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Jun 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/8708013f-f5bf-43a2-b5ac-5697dcd7b1d5.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Jun 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/0e7c9402-6b1a-44fd-8f94-0c40d68a9f73.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Feb 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/00d9271e-d28e-41af-8e44-c261de2e56a8.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Feb 2021
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/20533893-3b74-46d2-a05b-f4056bc43fa7.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Dec 2020
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/2603809a-76e9-4152-ac56-8272825a9ad7.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Nov 2020
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/1c378d93-a1bd-4728-b6e1-5c876a6c8b4e.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Sep 2020
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/582a7a17-ead9-45cd-9eb2-2524f42b99e3.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8">
+    <div class="ink-600 font-size-16 font-weight-500 nowrap" style="width: 74px">
+      Jun 2019
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    
+
+    
+    <a href="https://www.bseindia.com/xml-data/corpfiling/AttachHis/83ea3cbd-781f-4e97-b0d5-f2065db99dec.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+</ul>
+
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- cache time 2023-01-26 11:05:50 -->
+
+
+  </main>
+  
+
+  
+  
+
+<footer id="large-footer">
+  <div class="flex-row flex-space-between flex-column-tablet container no-print">
+    <div class="hide-from-tablet" style="margin-bottom: 16px;">
+      <img src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg" alt="Screener Logo" style="max-width: 120px;" class="logo">
+    </div>
+
+    <div class="show-from-tablet" style="padding: 0 64px 0 0;">
+      <img src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg" alt="Screener Logo" style="max-width: 120px;" class="logo">
+      <p class="font-size-19" style="font-weight: 500;">Stock analysis and screening tool</p>
+      <p class="sub">
+        Mittal Analytics Private Ltd &copy; 2009-2023
+        <br>
+        Made with <i class="icon-heart red"></i> in India.
+      </p>
+      <p class="sub font-size-13">Data provided by C-MOTS Internet Technologies Pvt Ltd</p>
+      <p class="font-size-13 sub">
+        <a href="/guides/terms/" class="underline-link">Terms</a> & <a href="/guides/privacy/" class="underline-link">Privacy</a>.
+      </p>
+    </div>
+
+    <div class="flex flex-end flex-space-between flex-grow" style="max-width: 600px">
+      <div class="flex-grow">
+        <div class="title">Product</div>
+        <ul class="items">
+          <li>
+            <a href="/home/">Home</a>
+          </li>
+          <li>
+            <a href="/premium/">Premium</a>
+          </li>
+          <li>
+            <a href="/docs/changelog/">What's new?</a>
+          </li>
+          <li>
+            <button class="a2hs button-secondary button-small">
+              <i class="icon-flash"></i>
+              Install
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-grow">
+        <div class="title">Team</div>
+        <ul class="items">
+          <li>
+            <a href="/guides/about-us/">About us</a>
+          </li>
+          <li>
+            <a href="/support/">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-grow">
+        <div class="title">Theme</div>
+        <ul class="items">
+          <li>
+            <button onclick="SetTheme('light')" aria-label="Set light theme" class="button-plain">
+              <i class="icon-sun"></i>
+              Light
+            </button>
+          </li>
+          <li>
+            <button onclick="SetTheme('dark')" aria-label="Set dark theme" class="button-plain">
+              <i class="icon-moon"></i>
+              Dark
+            </button>
+          </li>
+          <li>
+            <button onclick="SetTheme('auto')" aria-label="Set auto theme" class="button-plain">
+              <i class="icon-monitor"></i>
+              Auto
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hide-from-tablet">
+      <hr>
+      <p class="sub">
+        Mittal Analytics Private Ltd &copy; 2009-2023
+      </p>
+      <p class="sub">Data provided by C-MOTS Internet Technologies Pvt Ltd</p>
+      <p class="sub">
+        <a href="/guides/terms/" class="underline-link">Terms</a>
+        & <a href="/guides/privacy/" class="underline-link">Privacy</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+  
+
+  <!-- Important JS (which provide global objects)- check below too -->
+  <script src="https://cdn-static.screener.in/js/polyfill.c565c6038999.js"></script>
+  <script src="https://cdn-static.screener.in/js/dialog-polyfill.min.2b5bf9a032d2.js"></script>
+  <script src="https://cdn-static.screener.in/js/utils.23c25e6f7519.js"></script>
+  <script src="https://cdn-static.screener.in/js/modal.25fed1312bcc.js"></script>
+  <script src="https://cdn-static.screener.in/js/typeahead.6398a86e0088.js"></script>
+  <script src="https://cdn-static.screener.in/js/filter.component.5add9ef3b7a9.js"></script>
+
+  <!-- Independent JS scripts for page interactions -->
+  <script src="https://cdn-static.screener.in/js/navbar.3fe7f0f4a630.js"></script>
+  <script src="https://cdn-static.screener.in/js/company.search.f6e70e38248c.js"></script>
+  
+<script src="https://cdn-static.screener.in/js/scroll-aid.98b52cdb4405.js"></script>
+<script src="https://cdn-static.screener.in/js/company.customisation.4618accb3fa8.js"></script>
+<script src="https://cdn-static.screener.in/js/chart.min.10a29a29621c.js"></script>
+<script src="https://cdn-static.screener.in/js/chartjs-adapter-date-fns.bundle.min.ebae23730a6e.js"></script>
+<script src="https://cdn-static.screener.in/js/chart.36d16823d484.js"></script>
+<script src="https://cdn-static.screener.in/js/segment-result.b6af4191fd6f.js"></script>
+
+
+  <!-- Service worker installer for PWA -->
+  <script src="https://cdn-static.screener.in/js/pwa.933118758337.js"></script>
+</body>
+</html>
